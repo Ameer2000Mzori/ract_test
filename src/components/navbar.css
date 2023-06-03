@@ -45,19 +45,32 @@ body{
 .navLinks ul li a:hover{
     color: black;
 }
-.toggleBtn{
-    position: absolute;
-    top: .7rem;
-    right: 1rem;
-    height: 30px;
-    width: 30px;
-    display: none;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.toggleBtn .Bars{
-    width: 100%;
-    height: 3px;
-    background-color: white;
-    border-radius: 5px;
+
+
+@media(max-width:700px){
+    .navBar{
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center ;
+    }
+    .navBrand{
+        padding: 1rem;
+    }
+    .navLinks{
+        display:flex;
+        text-align: center;
+        align-items: center ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .navLinks ul{
+        font-size: 15px;
+        padding: 0;
+
+    }
+    .navLinks ul li{
+        margin-left: 35px;
+    }
 }
