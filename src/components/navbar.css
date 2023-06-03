@@ -41,6 +41,22 @@ body{
     transition-duration: 1s;
 
 }
+.toggleBtn{
+    position: absolute;
+    top: .7rem;
+    right: .5rem;
+    height: 30px;
+    width: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.toggleBtn .bars{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
 .navLinks ul li:hover{
     background-color: gray;
     color: black;
@@ -63,16 +79,21 @@ body{
         padding: 1rem;
     }
     .navLinks{
-        display:flex;
+        display:none;
         text-align: center;
         align-items: center ;
     }
     .navLinks ul{
         font-size: 15px;
         padding: 0;
-
     }
     .navLinks ul li{
         margin-left: 35px;
+    }
+    .toggleBtn{
+        display: flex;
+    }
+    .navLinks.active{
+        display: block;
     }
 }
