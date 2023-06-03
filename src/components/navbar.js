@@ -5,7 +5,7 @@ function navbar(){
         <>
         <nav className='navBar'>
         <div className="navBrand">IGN</div>
-        <a href='toggleBtn'>
+        <a href='#' className='toggleBtn'>
             <span className='Bars'></span>
             <span className='Bars'></span>
             <span className='Bars'></span>
