@@ -1,9 +1,13 @@
 body{
     padding: 0;
     margin: 0;
+
 }
 .navBar{
  background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
  color: white;
  display: flex;
  justify-content: space-evenly;
@@ -11,12 +15,12 @@ body{
  text-align: center;
 }
 .navBrand{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 .navLinks{
     display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .navLinks ul{
     display: flex;
@@ -46,7 +50,6 @@ body{
     color: black;
 }
 
-
 @media(max-width:700px){
     .navBar{
         background-color: black;
@@ -63,7 +66,6 @@ body{
         display:flex;
         text-align: center;
         align-items: center ;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .navLinks ul{
         font-size: 15px;
