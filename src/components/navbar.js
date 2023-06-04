@@ -1,6 +1,12 @@
 import "./navbar.css";
 
 function navbar() {
+  // btn function
+  let clicks = () => {
+    let navLnks = document.getElementsByClassName("navLinks")[0];
+    navLnks.classList.toggle("active");
+  }
+  
   return (
     <>
       <nav className="navBar">
@@ -8,12 +14,7 @@ function navbar() {
 
         <a
           href="#"
-          onClick={() => {
-            let navLnks = document.getElementsByClassName("navLinks")[0];
-            navLnks.classList.toggle("active");
-          }}
-          className="toggleBtn"
-        >
+          onClick={clicks}className="toggleBtn">
           <span className="bars"></span>
           <span className="bars"></span>
           <span className="bars"></span>
