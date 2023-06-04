@@ -2,11 +2,15 @@ import "./navbar.css";
 
 
 function navbar() {
-    // let TogBtn = document.getElementsByClassName("toggleBtn")[0]
-    // let navLnks = document.getElementsByClassName("navLinks")[0]
-    // TogBtn.addEventListener('click', function(){
-    //     navLnks.classList.toggle("active");
-    // })
+
+  let TogBtn = document.getElementsByClassName("toggleBtn")[0]
+  let navLnks = document.getElementsByClassName("navLinks")[0]
+
+  TogBtn.addEventListener('click', function(){
+      navLnks.classList.toggle("active");
+  
+  })
+
   return (
     <>
       <nav className="navBar">
