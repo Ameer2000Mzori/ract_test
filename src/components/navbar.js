@@ -11,14 +11,11 @@ function navbar() {
     <>
       <nav className="navBar">
         <div className="navBrand">IGN</div>
-
-        <a
-          href="#"
-          onClick={clicks}className="toggleBtn">
+        <a href="#" onClick={clicks} className="toggleBtn">
           <span className="bars"></span>
           <span className="bars"></span>
           <span className="bars"></span>
-        </a>
+</a>
         <div className="navLinks">
           <ul>
             <li>

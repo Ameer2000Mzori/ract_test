@@ -9,3 +9,7 @@
 *
 # Working with main 1.3.0-BETA
 *worked with main
+*
+# finshed 1.4.0-BETA working with navbar and merged 
+*added logo and and changed page name"
+" worked with navbar tree and fnished the logics "
