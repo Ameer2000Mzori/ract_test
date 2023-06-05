@@ -1,6 +1,7 @@
-
+body{
+    background-image: url(https://cdn.wallpapersafari.com/36/54/GpbkEL.jpg);
+}
 .main{
-    /* background-image:url(https://wallpaperaccess.com/full/42271.jpg); */
     display: flex;
     justify-content: space-evenly;
 
