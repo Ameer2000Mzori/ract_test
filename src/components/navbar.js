@@ -1,4 +1,7 @@
 import "./navbar.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import * as React from "react";
+import Contact from "./contactus";
 
 function navbar() {
   // btn function
@@ -6,7 +9,10 @@ function navbar() {
     let navLnks = document.getElementsByClassName("navLinks")[0];
     navLnks.classList.toggle("active");
   }
-  
+
+  let contactme = () => {
+    console.log("you clicked");
+  }
   return (
     <>
       <nav className="navBar">
@@ -16,6 +22,11 @@ function navbar() {
           <span className="bars"></span>
           <span className="bars"></span>
 </a>
+<BrowserRouter>
+  <Routes>
+    <Route path=".contactus" element={<Contact/>}></Route>
+  </Routes>
+  </BrowserRouter>
         <div className="navLinks">
           <ul>
             <li>
@@ -25,7 +36,7 @@ function navbar() {
               <a href="#">About</a>
             </li>
             <li>
-              <a href="#">contact</a>
+              <a href="#">Contact</a>
             </li>
           </ul>
         </div>
