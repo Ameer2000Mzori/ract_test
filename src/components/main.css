@@ -1,17 +1,20 @@
 
 .main{
-    background-image:url(https://wallpaperaccess.com/full/42271.jpg);
+    /* background-image:url(https://wallpaperaccess.com/full/42271.jpg); */
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
+
     text-align: center;
     align-items: center;
     padding: 5% 15%;
 }
-.main-img{
-    padding: 1rem;
-    background-repeat: no-repeat;
-    height: 200px;
+.main-video{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    width: 460px;
+    height: 250px;
 }
 strong{
     color: rgb(255, 245, 245);
@@ -27,6 +30,17 @@ strong{
     color: wheat;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.main-a:hover{
+    cursor: alias;
+}
+@media(max-width:1000px){
+
+    .main-video{
+        margin-top: 20px;
+        width: 300px;
+        height: 190px;
+    }
+}
 @media(max-width:800px){
     .main{
         color: aqua;
@@ -34,10 +48,10 @@ strong{
         flex-direction: column;
         text-align: center;
         align-items: center;
-        padding: 25% 0%;
+        padding: 25% 0% 2% 0%;
     }
-    .main-img{
-        padding: 0;
-        width: 100%;
+    .main-video{
+        width: 330px;
+        height: 200px;
     }
 }

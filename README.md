@@ -13,3 +13,7 @@
 # finshed 1.4.0-BETA working with navbar and merged 
 *added logo and and changed page name"
 " worked with navbar tree and fnished the logics "
+*
+# updated many things changes with both commits main and about 
+*added video logo and many other things 
+*
