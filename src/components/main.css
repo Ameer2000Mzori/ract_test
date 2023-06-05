@@ -17,6 +17,9 @@ body{
     width: 460px;
     height: 250px;
 }
+.main-video-img{
+    height: 100px;
+}
 strong{
     color: rgb(255, 245, 245);
 }
@@ -29,6 +32,7 @@ strong{
 .main-a{
     text-decoration: none;
     color: wheat;
+    font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .main-a:hover{

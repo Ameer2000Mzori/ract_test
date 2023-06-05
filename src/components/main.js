@@ -19,8 +19,9 @@ function main() {
             ></iframe>
           </div>
           <div>
+            <img className="main-video-img" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Firewatch_Logo.png"></img>
             <p className="mian-p">
-              <strong>Watchfire :</strong> A blazing beacon illuminating the
+              A blazing beacon illuminating the
               night, signaling danger or calling for aid, igniting tales of
               adventure and camaraderie."
             </p>
