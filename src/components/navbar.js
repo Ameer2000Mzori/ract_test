@@ -10,7 +10,7 @@ function navbar() {
   return (
     <>
       <nav className="navBar">
-        <div className="navBrand">IGN</div>
+        <div className="navBrand"><img className="navBrand" src="\imgs\Firewatch_Logo.png"></img></div>
         <a href="#" onClick={clicks} className="toggleBtn">
           <span className="bars"></span>
           <span className="bars"></span>

@@ -4,7 +4,7 @@ body{
 
 }
 .navBar{
- background-color: black;
+       /* background-color: black; */
     position: fixed;
     width: 100%;
     top: 0;
@@ -15,9 +15,7 @@ body{
  text-align: center;
 }
 .navBrand{
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    height: 45px;
 }
 .navLinks{
     display: flex;
@@ -76,7 +74,10 @@ body{
         align-items: flex-start ;
     }
     .navBrand{
-        padding: 1rem;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        height: 35px;
     }
     .navLinks{
         display:none;
