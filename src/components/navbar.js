@@ -2,7 +2,6 @@ import "./navbar.css";
 import * as React from "react";
 import Main from "./main";
 import Contact from "./Contact";
-
 import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
 
 function navbar() {
@@ -30,15 +29,14 @@ function navbar() {
           <div className="navLinks">
             <ul>
               <li>
-                <Link className="li" to="/">
-                  {" "}
+                <Link to="/">
                   <a>Home</a>
                 </Link>
               </li>
               <li>
                 <NavLink to="Contact">
                   <a> Contact</a>
-                </NavLink>{" "}
+                </NavLink>
               </li>
             </ul>
           </div>

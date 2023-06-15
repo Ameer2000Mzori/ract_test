@@ -34,7 +34,6 @@ function main() {
         </section>
       </section>
       <About></About>
-      <Footer></Footer>
 
     </>
   );
