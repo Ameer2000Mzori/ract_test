@@ -1,5 +1,6 @@
 import "./main.css";
-
+import About from "./about";
+import Footer from "./footer";
 function main() {
   return (
     <>
@@ -32,6 +33,8 @@ function main() {
           <div></div>
         </section>
       </section>
+      <About></About>
+      <Footer></Footer>
 
     </>
   );
