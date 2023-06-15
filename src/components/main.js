@@ -1,6 +1,6 @@
 import "./main.css";
 import About from "./about";
-import Footer from "./footer";
+
 function main() {
   return (
     <>
