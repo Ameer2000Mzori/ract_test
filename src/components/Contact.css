@@ -1,0 +1,64 @@
+.Contact-1{
+    padding-top: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Contact-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Contact-form{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgb(108, 112, 111);
+    margin: 1rem;
+}
+.input[type=name ], [type=email ]{
+    display: flex;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.Contact-txts{
+    text-align: center;
+    align-items: center;
+    max-width: 45ch;
+}
+.Contact-h1.active{
+    color: rgb(135, 248, 82);
+}
+.Contact-texterea{
+    max-width: 250px;
+    min-width: 250px;
+    height: 250px;
+}
+.Contact-form.deactive{
+    display: none;
+}
+@media(max-width:800px){
+    .Contact-2{
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Contact-texterea{
+        max-width: 250px;
+        min-width: 250px;
+        min-height: 380px;
+        max-height: 380px;
+    }
+    .Contact-form{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        height: 500px;
+        width: 250px;
+        padding: 1rem;
+        background-color: rgb(108, 112, 111);
+        margin: 1rem;
+    }
+}
