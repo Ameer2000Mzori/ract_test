@@ -54,7 +54,7 @@
 
 }
 .footer-1 ul li a{
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 @media(max-width:700px){
