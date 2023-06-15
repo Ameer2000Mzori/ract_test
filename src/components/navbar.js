@@ -1,4 +1,5 @@
 import "./navbar.css";
+import * as React from "react";
 
 function navbar() {
   // btn function
@@ -6,7 +7,10 @@ function navbar() {
     let navLnks = document.getElementsByClassName("navLinks")[0];
     navLnks.classList.toggle("active");
   }
-  
+
+  let contactme = () => {
+    console.log("you clicked");
+  }
   return (
     <>
       <nav className="navBar">
@@ -14,8 +18,7 @@ function navbar() {
         <a href="#" onClick={clicks} className="toggleBtn">
           <span className="bars"></span>
           <span className="bars"></span>
-          <span className="bars"></span>
-</a>
+          <span className="bars"></span></a>
         <div className="navLinks">
           <ul>
             <li>
@@ -25,7 +28,7 @@ function navbar() {
               <a href="#">About</a>
             </li>
             <li>
-              <a href="#">contact</a>
+              <a href="#">Contact</a>
             </li>
           </ul>
         </div>
